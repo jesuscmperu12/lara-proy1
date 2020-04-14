@@ -19,7 +19,7 @@ Route::get('/', function () {
 	$title= Str::plural($title);
 	$title= Str::upper($title);
 	dd($title);*/
-    return view('welcomes');
+    return view('welcome');
 });
 
 Auth::routes();
