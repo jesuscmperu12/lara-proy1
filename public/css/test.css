@@ -1,0 +1,170 @@
+body {
+
+}
+
+.profile {
+    display: flex;
+}
+
+hr {
+    margin: 5px 0;
+    border: 0;
+    height: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.sidebar-footer a {
+    width: 50%;
+}
+
+.centrar-texto {
+    text-align: center;
+}
+
+/* ESTILOS PANTALLA LOGIN */
+.animate.form {
+    margin-top:2em;
+}
+.help-block {
+    margin-top: -15px;
+}
+/** Validaciones form nuevo cliente*/
+.help-block {
+    margin-bottom: 0;
+}
+
+/* Botonera de tabla */
+.botonera {
+    padding: 0;
+}
+.btn {
+    margin-bottom: 0 !important;
+}
+
+.modal.fade {
+    z-index: 9999999;
+}
+
+.barra-lateral {
+    height: 100%;
+}
+
+.right_col {
+    padding-top: 4.5em !important;
+}
+
+div.btn-derecha {
+    text-align: right;
+}
+
+td ul li {
+    padding: 0;
+}
+
+/*input.buscador {*/
+    /*!*padding-right: 0;*!*/
+    /*!*padding-left: 0;*!*/
+
+/*}*/
+
+/*div.input-caja {*/
+    /*width: 100%;*/
+    /*box-sizing: border-box*/
+/*}*/
+
+.escondido {
+    display:  none;
+}
+
+/* Header de los dialogos de alertify y bootstrap */
+.alertify .ajs-header, div.modal-header {
+    background: #425567 !important;
+    color: #fff !important;
+}
+
+div.modal-header .close span {
+    color: #fff !important;
+}
+
+/* Para que el menu lateral no tape los popups y dialogos*/
+.col-md-3.left_col {
+    z-index:  1000 !important;
+}
+
+/* Cursor de manito */
+.cursor-pointer {
+    cursor: pointer
+}
+
+.btn-vermas-cliente {
+    font-weight: bold !important;
+    font-size: 1.2em;
+}
+
+/* Fix para ocultar icono de la primer columna   *
+*        en la datatable de clientes             */
+table.dataTable thead .no-sort.sorting_asc:after {
+    content:"";
+}
+
+/*  Redondeo de input de busqueda*/
+.top_search .form-control {
+    border-radius: 25px;
+}
+
+/* Estilo y correcciones al breadcrumb */
+.breadcrumb {
+    background: transparent;
+    font-size: 0.7em;
+    padding-left: 2px;
+}
+.breadcrumb > li + li:before {
+    padding: 0;
+}
+
+.titulo-botonera {
+    margin-right: 0;
+}
+
+/* Boton de nuevo cliente*/
+.btn-clientes-new {
+    color: #fff !important;
+}
+/* Para que los buscadores no tapen los menues */
+.top_search {
+    z-index: 1;
+}
+
+/** Color de iconos de ordenado cabecera de tablas*/
+table.dataTable thead .sorting_asc:after, table.dataTable thead .sorting_desc:after {
+    color: rgb(38, 185, 154);
+    opacity: 0.9 !important;
+}
+
+.btn-show-client {
+    color: rgb(240, 173, 78);
+    font-size: 1.2em;
+
+}
+
+div.tabla-pie {
+    margin-top: 2em;
+}
+div.dataTables_wrapper div.dataTables_paginate {
+    float: none !important;
+    text-align: center !important;
+}
+
+/** Correccion del fondo :hover de btn-success */
+.btn-success:hover, .btn-success:focus,
+.btn-success:active, .btn-success.active,
+.open .dropdown-toggle.btn-success {
+    background: #169F85 !important;
+}
+
+/** Icono de los botones */
+.btn-icon {
+    margin-right: 0.4em;
+    color: #fff !important;
+}
